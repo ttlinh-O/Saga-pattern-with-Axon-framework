@@ -1,0 +1,3 @@
+rootProject.name = 'OderService'
+include ':CommonService'
+project(':CommonService').projectDir = file('../CommonService')

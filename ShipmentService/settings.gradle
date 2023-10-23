@@ -1,0 +1,3 @@
+rootProject.name = 'ShipmentService'
+include ':CommonService'
+project(':CommonService').projectDir = file('../CommonService')
